@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/Calculator.slnx">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/Calculator.slnx" />
+              <option name="updatedContent" value="&lt;Solution&gt;&#10;  &lt;Folder Name=&quot;/src/&quot;&gt;&#10;    &lt;Project Path=&quot;src/Calculator/Calculator.csproj&quot; /&gt;&#10;  &lt;/Folder&gt;&#10;  &lt;Folder Name=&quot;/tests/&quot;&gt;&#10;    &lt;Project Path=&quot;tests/Calculator.Tests/Calculator.Tests.csproj&quot; /&gt;&#10;  &lt;/Folder&gt;&#10;&lt;/Solution&gt;&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/README.md">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/README.md" />
+              <option name="updatedContent" value="# Calculator&#10;&#10;Реализуйте класс `Calculator` в файле `src/Calculator/Calculator.cs`.&#10;&#10;## Требования&#10;&#10;Класс `Calculator` должен содержать 4 метода:&#10;&#10;| Метод | Сигнатура | Описание |&#10;|---|---|---|&#10;| `Add` | `double Add(double a, double b)` | Возвращает сумму `a + b` |&#10;| `Subtract` | `double Subtract(double a, double b)` | Возвращает разность `a - b` |&#10;| `Multiply` | `double Multiply(double a, double b)` | Возвращает произведение `a * b` |&#10;| `Divide` | `double Divide(double a, double b)` | Возвращает частное `a / b`. При `b == 0` выбрасывает `DivideByZeroException` |&#10;&#10;## Как работать&#10;&#10;1. Откройте `src/Calculator/Calculator.cs`&#10;2. Реализуйте все 4 метода&#10;3. Для локальной проверки: `dotnet build src/Calculator/`&#10;4. Отправьте ссылку на этот репозиторий через систему автопроверки&#10;&#10;&gt; **Примечание:** папка `tests/` отсутствует — скрытые тесты запускаются автоматически в CI.&#10;&gt; Не удаляйте и не переименовывайте файл `Calculator.slnx`.&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/Calculator/Calculator.cs">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/Calculator/Calculator.cs" />
+              <option name="updatedContent" value="namespace Calculator;&#10;&#10;public class Calculator&#10;{&#10;    public double Add(double a, double b) =&gt; a + b;&#10;&#10;    public double Subtract(double a, double b) =&gt; a - b;&#10;&#10;    public double Multiply(double a, double b) =&gt; a * b;&#10;&#10;    public double Divide(double a, double b)&#10;    {&#10;        if (b == 0)&#10;            throw new DivideByZeroException(&quot;Cannot divide by zero.&quot;);&#10;&#10;        return a / b;&#10;    }&#10;}&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/Calculator/Calculator.csproj">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/Calculator/Calculator.csproj" />
+              <option name="updatedContent" value="&lt;Project Sdk=&quot;Microsoft.NET.Sdk&quot;&gt;&#10;&#10;  &lt;PropertyGroup&gt;&#10;    &lt;TargetFramework&gt;net10.0&lt;/TargetFramework&gt;&#10;    &lt;Nullable&gt;enable&lt;/Nullable&gt;&#10;    &lt;ImplicitUsings&gt;enable&lt;/ImplicitUsings&gt;&#10;  &lt;/PropertyGroup&gt;&#10;&#10;&lt;/Project&gt;&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

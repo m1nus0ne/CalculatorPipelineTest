@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "WrUrEEKUZ3U=",
+  "success": true,
+  "projectFilePath": "/home/end4dots/RiderProjects/CalcTemplate/src/Calculator/Calculator.csproj",
+  "expectedPackageFiles": [
+    "/home/end4dots/.nuget/packages/microsoft.aspnetcore.app.ref/10.0.3/microsoft.aspnetcore.app.ref.10.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
